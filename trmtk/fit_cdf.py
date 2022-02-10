@@ -25,10 +25,7 @@ import numpy as np
 
 
 def glm_probit_lognormal(im, prob_of_ex):
-    
-    from scipy.stats import norm
-    
-    """ 
+    """
     This method takes as input a set of points defined by values of an
     intensity measure and the corresponding probabilities, and computes the
     mean and the dispersion of a lognormal curve. More information on this
@@ -48,6 +45,7 @@ def glm_probit_lognormal(im, prob_of_ex):
     Note: unless there are at least 2 points with a probabilities > 0 AND
           < 1, the function will return NaNs
     """
+    from scipy.stats import norm
     
     # Censor the data for probabilities equal to 0 and 1, because the probit
     # link function returns infinite values in these cases
@@ -80,9 +78,6 @@ def glm_probit_lognormal(im, prob_of_ex):
 
 
 def glm_logit_logistic(im, prob_of_ex):
-    
-    from scipy.special import logit
-    
     """
     Usage:
     beta_0, beta_1 = glm_logit_logistic( \
@@ -99,6 +94,7 @@ def glm_logit_logistic(im, prob_of_ex):
     Note: unless there are at least 2 points with a probabilities > 0 AND
           < 1, the function will return NaNs
     """
+    from scipy.special import logit
     
     # Censor the data for probabilities equal to 0 and 1, because the logit
     # link function returns infinite values in these cases
