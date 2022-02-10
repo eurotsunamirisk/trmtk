@@ -35,7 +35,7 @@ def glm_probit_lognormal(im, prob_of_ex):
     procedure may be found here: https://doi.org/10.1007/s00024-019-02245-w
     
     Usage:
-    median, dispersion = glm_probit( \
+    median, dispersion = glm_probit_lognormal( \
                              im=im_1d_vector, prob_of_ex=prob_1d_vector)
         
     median: the median of the lognormal CDF
