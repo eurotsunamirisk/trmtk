@@ -26,7 +26,7 @@ import numpy as np
 
 def glm_probit_lognormal(im, prob_of_ex):
     """
-    This method takes as input a set of points defined by values of an
+    This function takes as input a set of points defined by values of an
     intensity measure and the corresponding probabilities, and computes the
     mean and the dispersion of a lognormal curve. More information on this
     procedure may be found here: https://doi.org/10.1007/s00024-019-02245-w
@@ -37,6 +37,7 @@ def glm_probit_lognormal(im, prob_of_ex):
         
     median: the median of the lognormal CDF
     dispersion: the dispersion of the lognormal CDF
+    
     im: the values of the intensity measure
     prob_of_ex: the values of the probability at the intensity measure
                 values in "im". "prob_of_ex" must have the same length as
@@ -79,6 +80,10 @@ def glm_probit_lognormal(im, prob_of_ex):
 
 def glm_logit_logistic(im, prob_of_ex):
     """
+    This function takes as input a set of points defined by values of an
+    intensity measure and the corresponding probabilities, and computes the
+    parameters of a logistic curve.
+    
     Usage:
     beta_0, beta_1 = glm_logit_logistic( \
                          im=im_1d_vector, prob_of_ex=prob_1d_vector)
@@ -86,11 +91,12 @@ def glm_logit_logistic(im, prob_of_ex):
     beta_0, beta_1: the parameters of the logistic curve. To cumpute the
     logistic curve use the following command:
         scipy.special.expit( beta_0 + beta_1 * x )
+    
     im: the values of the intensity measure
     prob_of_ex: the values of the probability at the intensity measure
                 values in "im". "prob_of_ex" must have the same length as
                 "im"
-                
+              
     Note: unless there are at least 2 points with a probabilities > 0 AND
           < 1, the function will return NaNs
     """
