@@ -13,7 +13,8 @@ hope that it will be useful. It is not developed to design standards, nor
 subject to critical review by professional software developers. It is
 therefore distributed WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+GNU General Public License for more details:
+https://www.gnu.org/licenses/gpl-3.0.html
 
 The European Tsunami Risk Service, and the authors of the software, assume no
 liability for use of the software.
