@@ -1,0 +1,7 @@
+name: my_environment
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - plotly
+  - scipy
