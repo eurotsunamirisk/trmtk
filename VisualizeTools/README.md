@@ -19,7 +19,7 @@ _An example .csv file has been provided in the notebook directory_
 - Necessary libraries (see: environment.yml)
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPL3.0](LICENSE).
 
 
 ## Contributing
