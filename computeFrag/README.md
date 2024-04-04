@@ -4,10 +4,6 @@ ComputeFrag is a code for computing robust fragility curves using a generalized 
 
 **Citation:** Please consider citing the following DOI if you use ComputeFrag in your work: [DOI: 10.5281/zenodo.5167276](https://doi.org/10.5281/zenodo.5167276)
 
-![Graphical representation of damage thresholds and damage states](https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png)
-
-*Graphical representation of damage thresholds, D, and damage states, DS*
-
 ## Inputs
 
 - **Filename:** The filename of a CSV file containing two columns, one for the intensity measure and one for the damage state.
