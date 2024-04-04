@@ -18,5 +18,9 @@ _An example .csv file has been provided in the notebook directory_
 - Jupyter Notebook or JupyterLab
 - Necessary libraries (see: environment.yml)
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
 ## Contributing
 Contributions are welcome! If you have suggestions, feature requests, or bug reports, please open an issue or create a pull request.
