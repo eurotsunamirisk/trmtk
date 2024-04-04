@@ -1,15 +1,16 @@
 # ComputeFrag
 ComputeFrag is a code for computing robust fragility curves using a generalized regression model considering Hierarchical fragility modeling. This code calculates fragility curves based on maximum likelihood estimation methods (basic and hierarchical modeling) or using Bayesian model class selection (BMCS) to estimate fragility curves with their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive damage states and different classes of buildings or infrastructure. The code utilizes Bayesian model class selection (BMCS) to identify the best link model to employ in the generalized linear regression scheme.
 
-## Citation
+### Citation
 Please consider citing the following DOI if you use ComputeFrag in your work: [DOI: 10.5281/zenodo.5167276](https://doi.org/10.5281/zenodo.5167276)
+
+Th computefrag provides an ensemble of the fragility curves and their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive (MECE) damage states (DS), where DS_i: i=0,N_DS. The fragility is defined as the probability of damage D exceeding the threshold D_i for damage state DS_i and is denoted as P(D>Di|IM). The set of damage levels (D_i, i=0,N_DS) mark the thresholds of damage states (DS_i).
+The parameters of the empirical fragilities associated with different damage levels are estimated jointly using Bayesian inference by employing a Markov Chain Monte Carlo Simulation (MCMC) scheme.
 
 ![Graphical representation of damage thresholds and damage states](https://github.com/soltanisgeo/readme/blob/main/damageScale-git.png)
 
 *Graphical representation of damage thresholds, D, and damage states, DS*
 
-Th computefragde provides an ensemble of the fragility curves and their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive (MECE) damage states (DS), where DS_i: i=0,N_DS. The fragility is defined as the probability of damage D exceeding the threshold D_i for damage state DS_i and is denoted as P(D>Di|IM). The set of damage levels (D_i, i=0,N_DS) mark the thresholds of damage states (DS_i).
-The parameters of the empirical fragilities associated with different damage levels are estimated jointly using Bayesian inference by employing a Markov Chain Monte Carlo Simulation (MCMC) scheme.
 
 ## Inputs
 
