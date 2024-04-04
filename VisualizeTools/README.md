@@ -7,7 +7,6 @@ These Jupyter Notebooks are designed to visualize fragility and vulnerability cu
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eurotsunamirisk/VisualizeFragility/HEAD)
 
-<br> 
 **or:**
 - place the .csv file in the same directory and update its name within the notebook.
 - To visualize the statistics of the fragility curves, you’ll need to specify in the notebook the fragility curve corresponding to the desired damage level. 
