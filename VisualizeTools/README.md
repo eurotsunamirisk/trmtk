@@ -16,7 +16,7 @@ _An example .csv file has been provided in the notebook directory_
 ## Requirements
 - Python
 - Jupyter Notebook or JupyterLab
-- Necessary libraries (e.g., matplotlib, pandas)
+- Necessary libraries (see: environment.yml)
 
 ## Contributing
 Contributions are welcome! If you have suggestions, feature requests, or bug reports, please open an issue or create a pull request.
