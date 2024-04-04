@@ -23,6 +23,13 @@ ComputeFrag is a code for computing robust fragility curves using a generalized 
 
 ## Outputs
 
+- **flow depth [m]:** The tsunami fragility curve employs the tsunami flow depth in meters as the measure of intensity.
+- **mean-1sigma fragility:** The expected value of the fragility over the vector of fragility parameters for a given intensity minus 1 standard deviation (the lower confidence interval of the fragility).
+- **mean fragility:** The expected value of the fragility over the vector of fragility parameters for a given intensity.
+- **mean+1sigma fragility:** The expected value of the fragility over the vector of fragility parameters for a given intensity plus 1 standard deviation (the upper confidence interval of the fragility).
+- **median:** The median (50%) of the mean fragility curve.
+- **logarithmic standard deviation:** The logarithmic standard deviation (dispersion) of the mean fragility curve.
+- **epistemic uncertainty:** Epistemic uncertainty due to the uncertainty in the fragility model parameters on the median fragility.
 - **sample_theta_model:** Ns=500 samples generated from the posterior joint probability distribution for logistic fragility model parameters.
 - **rfragility:** Robust fragility curve (the mean fragility among the Ns=500 realizations for each DS).
 - **sfragility:** The standard deviation of the Ns=500 fragility curve samples.
