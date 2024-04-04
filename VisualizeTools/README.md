@@ -4,8 +4,9 @@ These Jupyter Notebooks are designed to visualize fragility and vulnerability cu
 
 ### Usage
 - You can try the notebooks directly in a Binder environment:
-<br> 
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eurotsunamirisk/VisualizeFragility/HEAD)
+
 <br> 
 **or:**
 - place the .csv file in the same directory and update its name within the notebook.
