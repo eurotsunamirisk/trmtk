@@ -8,7 +8,7 @@ ComputeFrag V2.0 is a code for computing robust empirical fragility curves using
 <br> _Please consider citing the following DOI if you directly use ComputeFrag in your work: **doi.org/10.5281/zenodo.5167276**_ [cite](https://doi.org/10.5281/zenodo.5167276)
 
 ## Files
-- To run the program use **_main_script_Bayesian_fragility_model.m_** 
+To run the program use **_main_script_Bayesian_fragility_model.m_** 
 
 ## Inputs
 The inputs of the code are the following:
