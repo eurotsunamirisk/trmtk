@@ -1,6 +1,6 @@
 ## Tsunami Risk Modeller's Toolkit (TRMTK)
 
-**The Tsunami Risk Modeller’s Toolkit (TRMTK) is a library of Matlab and Python scripts and Jupyter notebooks to compute and visualize empirical fragility assessments using generalized linear regression model and Bayesian model class selection.**
+**The Tsunami Risk Modeller’s Toolkit (TRMTK) is a library of Matlab, Python scripts and Jupyter notebooks to compute and visualize empirical fragility and vulnerability assessments using generalized linear regression model and Bayesian model class selection.**
 
 ### Disclaimer
 
