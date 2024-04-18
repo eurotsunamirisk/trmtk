@@ -5,7 +5,7 @@ ComputeFrag V2.0 is a code for computing robust empirical fragility curves using
 **Citation:
 <br> Jalayer, F., Ebrahimian, H., Trevlopoulos, K., and Bradley, B. (2022).Empirical tsunami fragility modelling for hierarchical damage levels. [cite](https://doi.org/10.5194/egusphere-2022-206).
 <br>
-<br> _Please consider citing the following DOI if you directly use ComputeFrag in your work:_ [cite](https://doi.org/10.5281/zenodo.5167276)_
+<br> _Please consider citing the following DOI if you directly use ComputeFrag in your work:_ [cite](https://doi.org/10.5281/zenodo.5167276)
 
 ## Inputs
 The inputs of the code are the following:
