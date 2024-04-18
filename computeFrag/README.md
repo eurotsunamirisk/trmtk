@@ -28,11 +28,9 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 - **logarithmic standard deviation:** The logarithmic standard deviation (dispersion) of the mean fragility curve.
 - **epistemic uncertainty:** Epistemic uncertainty due to the uncertainty in the fragility model parameters on the median fragility.
 
-<br>
-All of these columns are repeated for different damage scales.
+**All of these columns are repeated for different damage scales.**
 
-  
-- **sample_theta_model:** Ns=500 samples generated from the posterior joint probability distribution for logistic fragility model parameters.
+ - **sample_theta_model:** Ns=500 samples generated from the posterior joint probability distribution for logistic fragility model parameters.
 - **rfragility:** Robust fragility curve (the mean fragility among the Ns=500 realizations for each DS).
 - **sfragility:** The standard deviation of the Ns=500 fragility curve samples.
 - **etaIMc:** The median of rfragility.
