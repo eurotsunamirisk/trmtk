@@ -7,7 +7,7 @@ ComputeFrag is a code for computing robust empirical fragility curves using a ge
 ## Inputs
 The inputs of the code are the following:
 
-- **Input Filename:** The filename of a CSV file containing two columns, one for the intensity measure and one for the damage state (see: **IM_and_DS.csv**).
+- **Input Filename:** The filename of a CSV file containing two columns, one for the intensity measure and one for the damage state.
 - **output_folder:** The folder where the outputs will be stored.
 - **excel_filename:** The name of the Excel file for storing the fragility data.
 - **D:** Definition of the damage levels (e.g., **0:2 showing 3 damage levels 0, 1, and 2**).
