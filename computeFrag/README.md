@@ -37,6 +37,10 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 
 **All of these columns are repeated for different damage scales.**
 
+<p align="center">
+  <img src="https://github.com/soltanisgeo/readme/blob/main/Fragilitygit.png" />
+</p>
+
 ## Docker repository
 
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
