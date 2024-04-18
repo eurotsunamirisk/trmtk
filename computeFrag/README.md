@@ -7,6 +7,9 @@ ComputeFrag V2.0 is a code for computing robust empirical fragility curves using
 <br>
 <br> _Please consider citing the following DOI if you directly use ComputeFrag in your work: **doi.org/10.5281/zenodo.5167276**_ [cite](https://doi.org/10.5281/zenodo.5167276)
 
+## Files
+To rub the program use _main_script_Bayesian_fragility_model.m_
+
 ## Inputs
 The inputs of the code are the following:
 
@@ -34,7 +37,7 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 
 **All of these columns are repeated for different damage scales.**
 
-## Docker
+## Docker repository
 
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
 i) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> docker hub</a> 
