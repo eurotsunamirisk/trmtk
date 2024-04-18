@@ -2,7 +2,7 @@
 
 ComputeFrag V2.0 is a code for computing robust empirical fragility curves using a generalized regression model considering Hierarchical fragility modeling. This code calculates fragility curves based on maximum likelihood estimation methods (basic and hierarchical modeling) or using Bayesian model class selection (BMCS) to estimate fragility curves with their corresponding confidence bands for a set of mutually exclusive and collectively exhaustive damage states and different classes of buildings or infrastructure. The code utilizes Bayesian model class selection (BMCS) to identify the best link model to employ in the generalized linear regression scheme.
 
-**Citation:
+**Citation**:
 <br> Jalayer, F., Ebrahimian, H., Trevlopoulos, K., and Bradley, B. (2022).Empirical tsunami fragility modelling for hierarchical damage levels. **doi.org/10.5194/egusphere-2022-206** [cite](https://doi.org/10.5194/egusphere-2022-206)
 <br>
 <br> _Please consider citing the following DOI if you directly use ComputeFrag in your work: **doi.org/10.5281/zenodo.5167276**_ [cite](https://doi.org/10.5281/zenodo.5167276)
