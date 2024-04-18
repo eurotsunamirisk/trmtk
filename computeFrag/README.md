@@ -40,7 +40,7 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 ## Docker repository
 
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
-i) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> docker hub</a> 
+i) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> Docker hub</a> 
 <br>ii) Create a folder for the input and the outputs of the code. (e.g. C:\input_output\ (Windows) or /home/user/input_output (Linux)).
 <br>iii) Place the input file (e.g. the file building_class_1.csv from the repository). 
 <br>
