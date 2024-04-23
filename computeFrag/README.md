@@ -45,7 +45,7 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
 i) Install Docker Desktop from <a href="https://www.docker.com/products/docker-desktop/"> Docker repository</a>
 <br>ii) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> Docker hub</a> 
-<code>docker pull eurotsunamirisk/bayesian-fragility-standalone-app</code>
+<br><code>docker pull eurotsunamirisk/bayesian-fragility-standalone-app</code>
 <br>iii) Create a new folder for the results. (e.g. C:\computefragresults\ (Windows) or /home/user/computefragresults (Linux)).
 <br>iv) Place the input file (e.g. the file <a href="https://github.com/eurotsunamirisk/trmtk/blob/main/computeFrag/buildingclass1.csv"> buildingclass1.csv</a> from the  repository). 
 <br>
