@@ -54,7 +54,5 @@ i) Install Docker Desktop from <a href="https://www.docker.com/products/docker-d
 <br>
 <br>
 v) Execute the application using one of the following commands, depending on your operating system:
-</p>
-<p style="font-size: 15px" class="has-poppins-font-family">
-<code>docker run --rm -v C:\computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/buildingclass1.csv</code><br><code>docker run --rm -v /home/user/computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/building_class_1.csv</code>
+<br><code>docker run --rm -v C:\computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/buildingclass1.csv</code><br><code>docker run --rm -v /home/user/computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/building_class_1.csv</code>
 </p>
