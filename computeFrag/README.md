@@ -44,11 +44,11 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
 i) Install Docker Desktop from <a href="https://www.docker.com/products/docker-desktop/"> Docker repository</a>
-i) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> Docker hub</a> 
-<br>ii) Create a folder for the input and the outputs of the code. (e.g. C:\input_output\ (Windows) or /home/user/input_output (Linux)).
-<br>iii) Place the input file (e.g. the file building_class_1.csv from the repository). 
+<br>ii) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> Docker hub</a> 
+<br>iii) Create a folder for the input and the outputs of the code. (e.g. C:\input_output\ (Windows) or /home/user/input_output (Linux)).
+<br>iv) Place the input file (e.g. the file building_class_1.csv from the repository). 
 <br>
-iv) Execute the application using one of the following commands, depending on your operating system:
+v) Execute the application using one of the following commands, depending on your operating system:
 </p>
 <p style="font-size: 15px" class="has-poppins-font-family">
 <code>docker run --rm -v C:\input_output:/tmp bayesian-fragility-standalone-app/tmp/building_class_1.csv</code><br><code>docker run --rm -v /home/user/input_output:/tmp bayesian-fragility-standalone-app/tmp/building_class_1.csv</code>
