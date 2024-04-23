@@ -50,7 +50,7 @@ i) Install Docker Desktop from <a href="https://www.docker.com/products/docker-d
 <br>
 <br>iii) Create a new folder to save the results. (e.g. C:\computefragresults\ (Windows) or /home/user/computefragresults (Linux)).
 <br>
-<br>iv) Place the input file (e.g. the example file: <a href="https://github.com/eurotsunamirisk/trmtk/blob/main/computeFrag/buildingclass1.csv"> buildingclass1.csv</a> from the repository). 
+<br>iv) Place the input file (e.g. the test input file: <a href="https://github.com/eurotsunamirisk/trmtk/blob/main/computeFrag/buildingclass1.csv"> buildingclass1.csv</a> from the repository). 
 <br>
 <br>
 v) Execute the application using one of the following commands, depending on your operating system:
