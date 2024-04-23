@@ -45,11 +45,12 @@ The output data is available at _.csv_ or _.xlsx_ format, including:
 <p style="text-align: justify;font-size: 17px" class="has-poppins-font-family">
 i) Install Docker Desktop from <a href="https://www.docker.com/products/docker-desktop/"> Docker repository</a>
 <br>ii) Pull the image from: <a href="https://hub.docker.com/r/eurotsunamirisk/bayesian-fragility-standalone-app"> Docker hub</a> 
-<br>iii) Create a folder for the input and the outputs of the code. (e.g. C:\input_output\ (Windows) or /home/user/input_output (Linux)).
-<br>iv) Place the input file (e.g. the file building_class_1.csv from the repository). 
+<code>docker pull eurotsunamirisk/bayesian-fragility-standalone-app</code>
+<br>iii) Create a new folder for the results. (e.g. C:\computefragresults\ (Windows) or /home/user/computefragresults (Linux)).
+<br>iv) Place the input file (e.g. the file <a href="https://github.com/eurotsunamirisk/trmtk/blob/main/computeFrag/buildingclass1.csv"> buildingclass1.csv</a> from the  repository). 
 <br>
 v) Execute the application using one of the following commands, depending on your operating system:
 </p>
 <p style="font-size: 15px" class="has-poppins-font-family">
-<code>docker run --rm -v C:\input_output:/tmp bayesian-fragility-standalone-app/tmp/building_class_1.csv</code><br><code>docker run --rm -v /home/user/input_output:/tmp bayesian-fragility-standalone-app/tmp/building_class_1.csv</code>
+<code>docker run --rm -v C:\computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/buildingclass1.csv</code><br><code>docker run --rm -v /home/user/computefragresults:/tmp eurotsunamirisk/bayesian-fragility-standalone-app/tmp/building_class_1.csv</code>
 </p>
